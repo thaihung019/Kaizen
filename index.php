@@ -34,7 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--banner-->
 	<div class="banner">
 		<!--navigation-->
-		<div class="top-nav">
+		<div class="top-nav" style="border-bottom: 3px solid #E51D24">
 			<div class="container">
 				<div class="navbar-header logo">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -60,6 +60,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>	
 		<!--//navigation-->
+		
+		<div class="fullscreen-bg">
+			<video loop muted autoplay poster="images/banner.jpg" class="fullscreen-bg__video">
+				<source src="videos/kaizen.mp4" type="video/mp4">
+				<source src="videos/kaizen.webm" type="video/webm">
+			</video>
+		</div>
+
 		<div class="banner-text">
 			<!--banner Slider starts Here-->
 			<script>
@@ -434,7 +442,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</div>
 							<div class="col-md-3 team-grids team-mdl1 wow zoomInRight animated" data-wow-delay=".7s">
-								<h5>Nguyễn Minh Trí</h5>
+								<h5>Trần Minh Trí</h5>
 								<p>He's ambitious, kind, funny, hard-working. Sometimes get in trouble with his lover.</p>
 								<div class="social-icons">
 									<ul>
@@ -634,14 +642,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!--//portfolio-->
 	<!--twitter-->	
-	<div class="twitter">
+	<div class="youtube">
 		<div class="container">
 			<div class="social-icons wow zoomIn animated" data-wow-delay=".5s">
 				<ul>
-					<li><a href="#"> </a></li>
+					<li><a href="#" class=""> </a></li>
 				</ul>
 			</div>
-			<h4 class="wow fadeInUp animated" data-wow-delay=".7s">LATEST FROM TWITTER</h4>
+			<h4 class="wow fadeInUp animated" data-wow-delay=".7s">LATEST FROM YOUTUBE</h4>
 			<p class="twit-text wow fadeInUp animated" data-wow-delay=".8s">Libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
 		</div>
 	</div>		
@@ -668,17 +676,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>		
 	<!--//contact -->
-	<!--address-->
-	<div class="address wow fadeInDown animated" data-wow-delay=".5s">
-		<div class="container">
-			<ul>
-				<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Broome St, Canada, NY 10002, USA</li>
-				<li><i class="phon">Call Us :</i>  +01 111 222 3333</li>
-				<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com"> mail@example.com</a></li>
-			</ul>
-		</div>
-	</div>
-	<!--//address-->
 	<!--map-->
 	<div class="map">
 		<ul class="faq">
@@ -720,13 +717,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="footer">
 		<div class="container">
 			<h3 class="wow zoomIn animated" data-wow-delay=".5s"><a href="index.html">Kaizen Team</a></h3>
-			<p class="wow fadeInUp animated" data-wow-delay=".7s">© 2016 Kaizen. All rights reserved | Design by Kaizen Team</p>
-			<div class="social-icons wow fadeInUp animated" data-wow-delay=".9s">
+			<div class="social-icons wow fadeInUp animated col-md-12" data-wow-delay=".9s">
 				<ul>
-					<li><a href="#"> </a></li>
-					<li><a href="#" class="fb"> </a></li>
+					<li><a href="https://www.facebook.com/groups/590370407821516/" class="fb"> </a></li>
 					<li><a href="#" class="in"> </a></li>
-					<li><a href="#" class="dott"> </a></li>
+					<li><a href="https://www.youtube.com/channel/UCkGUwYccWLpdgvjngewFA6A" class="yt"> </a></li>
+					<li style="margin-left: 39em"><p class="wow fadeInUp animated" data-wow-delay=".7s">© 2016 Kaizen. All rights reserved | Design by Kaizen Team</p></li>
 				</ul>
 			</div>
 		</div>
