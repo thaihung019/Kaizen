@@ -53,7 +53,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li class="menu__item"><a href="#services" class="menu__link scroll">Services</a></li>
 						<li class="menu__item"><a href="#portfolio" class="menu__link scroll">Galary</a></li>
 						<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact</a></li>
-						<li><a href="#" class="sign-in" data-toggle="modal" data-target="#myModal">Book Now</a></li>
 					</ul>
 					<div class="clearfix"> </div>
 				</div>
@@ -125,121 +124,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>	
 	</div>
 	<!--//banner-->
-	<!--modal-->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				</div>
-				<div class="modal-body modal-spa">	
-					<div class="booking-info">
-						<h3>Book Domestic &amp; International Vacation packages</h3>
-					</div>
-					<div class="booking-form">
-						<div class="reservation">
-							<ul>		
-								<li class="span1_of_1 desti">
-									<h5>Flying from</h5>
-									<div class="book_date">
-										<form>
-											<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-											<input type="text" placeholder="Type Departure City" class="typeahead1 input-md form-control tt-input" required="">
-										</form>
-									</div>					
-								</li>
-								<li class="span1_of_1 left desti">
-									<h5>Flying to</h5>
-									<div class="book_date">
-										<form>
-											<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-											<input type="text" placeholder="Type Destination City" class="typeahead1 input-md form-control tt-input" required="">
-										</form>
-									</div>		
-								</li>
-							</ul>
-							<div class="clearfix"></div>
-						</div>
-						<div class="reservation">
-							<ul>	
-								<li class="span1_of_1">
-									<h5>Departure</h5>
-									<div class="book_date">
-										<form>
-											<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-											<input type="date" value="Select date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Select date';}">
-										</form>
-									</div>		
-								</li>
-								<li  class="span1_of_1 left">
-									<h5>Return</h5>
-									<div class="book_date">
-										<form>
-											<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-											<input type="date" value="Select date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Select date';}">
-										</form>
-									</div>					
-								</li>
-								<li class="span1_of_2 left adult">
-									<h5>Adults (18+)</h5>
-									<!--start section-room-->
-									<div class="section_room">
-										<select id="country" onchange="change_country(this.value)" class="frm-field required">
-											<option value="null">1</option>
-											<option value="null">2</option>         
-											<option value="AX">3</option>
-											<option value="AX">4</option>
-											<option value="AX">5</option>
-											<option value="AX">6</option>
-										</select>
-									</div>	
-								</li>
-								<li class="span1_of_2 left children">
-									<h5>Children (0-17)</h5>
-									<!--start section-room-->
-									<div class="section_room">
-										<select id="country" onchange="change_country(this.value)" class="frm-field required">
-											<option value="null">1</option>
-											<option value="null">2</option>         
-											<option value="AX">3</option>
-											<option value="AX">4</option>
-											<option value="AX">5</option>
-											<option value="AX">6</option>
-										</select>
-									</div>	
-								</li>
-								<li class="span1_of_2 economy">
-									<h5>Class</h5>
-									<!--start section-room-->
-									<div class="section_room">
-										<select id="country" onchange="change_country(this.value)" class="frm-field required">
-											<option value="null">Economy</option>
-											<option value="null">Business</option>     
-										</select>
-									</div>	
-								</li>
-							</ul>
-							<div class="clearfix"></div>
-						</div>
-						<div class="reservation">
-							<ul>	
-								<li class="span1_of_3">
-									<div class="date_btn">
-										<form>
-											<input type="submit" value="Submit" />
-										</form>
-									</div>
-								</li>
-							</ul>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--//modal-->
 	<!--welcome-->
 	<div class="welcome" id="about">
 		<div class="container">
@@ -249,23 +133,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="welcome-row">
 				<div class="col-md-4 welcome-grids wow slideInLeft animated" data-wow-delay=".5s">
 					<div class="welcome-img">
-						<img src="images/img1.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/product.jpg" class="img-responsive zoom-img" alt="">
 						<div class="welcome-text">
-							<h5>Our Product</h5>
+							<h5>Tutorial Video</h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 welcome-grids grid wow zoomIn animated" data-wow-delay=".5s">
 					<div class="welcome-img">
-						<img src="images/img2.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/product1.jpg" class="img-responsive zoom-img" alt="">
 						<div class="welcome-text">
-							<h5>Our Product</h5>
+							<h5>Real Estate Web</h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 welcome-grids grid wow slideInRight animated" data-wow-delay=".5s">
 					<div class="welcome-img">
-						<img src="images/img3.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/product.jpg" class="img-responsive zoom-img" alt="">
 						<div class="welcome-text">
 							<h5>Our Product</h5>
 						</div>
@@ -276,26 +160,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!--//welcome-->
-	<!--skills-->
-	<div class="skills">
-		<div class="container">
-			<h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Our Features</h3>
-			<div class="skills-info">
-				<div class="col-md-6 bar-left bar_group">
-					<div class='bar_group__bar thin' label='Best Price ' value='150'></div>
-					<div class='bar_group__bar thin' label='Enjoyment' value='250'></div>
-					<div class='bar_group__bar thin' label='Trust & Safety' value='180'></div>
-				</div>
-				<div class="col-md-6 bar-right bar_group">
-					<div class='bar_group__bar thin' label='Web Design' value='250'></div>
-					<div class='bar_group__bar thin' label='Software Design' value='150'></div>
-					<div class='bar_group__bar thin' label='Game Design' value='200'></div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//skills-->
 	<!--services-->
 	<div class="services" id="services">
 		<div class="container">
@@ -334,45 +198,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</li>
 						<li>
 							<h4>Est eligendi</h4>
-						</li>
-					</ul> 
-					<div class="clearfix"> </div>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus 
-						reiciendis maiores alias consequatur aut</p>
-				</div>
-				<div class="col-md-4 servc-grid servc-grid-btm wow fadeInUp animated" data-wow-delay=".5s">
-					<ul> 
-						<li>
-							<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
-						</li>
-						<li>
-							<h4>Soluta nobis</h4>
-						</li>
-					</ul> 
-					<div class="clearfix"> </div>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus 
-						reiciendis maiores alias consequatur aut</p>
-				</div>
-				<div class="col-md-4 servc-grid servc-grid-btm wow fadeInUp animated" data-wow-delay=".7s">
-					<ul> 
-						<li>
-							<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-						</li>
-						<li>
-							<h4>Msoluta est</h4>
-						</li>
-					</ul> 
-					<div class="clearfix"> </div>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus 
-						reiciendis maiores alias consequatur aut</p>
-				</div>
-				<div class="col-md-4 servc-grid servc-grid-btm wow fadeInUp animated" data-wow-delay=".9s">
-					<ul> 
-						<li>
-							<span class="glyphicon glyphicon-road" aria-hidden="true"></span>
-						</li>
-						<li>
-							<h4>Nobis estli</h4>
 						</li>
 					</ul> 
 					<div class="clearfix"> </div>
@@ -485,10 +310,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
 						<li class="resp-tab-item"><span>All</span></li>
-						<li class="resp-tab-item"><span>Children</span></li>
-						<li class="resp-tab-item"><span>Vacation</span></li>
-						<li class="resp-tab-item"><span>HoneyMoon</span></li>
-						<li class="resp-tab-item"><span>Celebrations</span></li>					
+						<li class="resp-tab-item"><span>HTML & CSS</span></li>
+						<li class="resp-tab-item"><span>SQLServer</span></li>
+						<li class="resp-tab-item"><span>JavaScript</span></li>
+						<li class="resp-tab-item"><span>Jquery</span></li>					
 					</ul>	
 					<div class="clearfix"> </div>	
 					<div class="resp-tabs-container">
@@ -641,7 +466,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!--//portfolio-->
-	<!--twitter-->	
+	<!--youtube-->	
 	<div class="youtube">
 		<div class="container">
 			<div class="social-icons wow zoomIn animated" data-wow-delay=".5s">
@@ -653,13 +478,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<p class="twit-text wow fadeInUp animated" data-wow-delay=".8s">Libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
 		</div>
 	</div>		
-	<!--//twitter-->	
+	<!--//youtube-->	
 	<!--contact -->
 	<div class="contact" id="contact">
 		<div class="container">
 			<h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Contact Us</h3>
 			<div class="contact-form">
-				<p class="wow slideInDown animated" data-wow-delay=".5s">Sed ut turpis elit ullamcorper in auctor non, accumsan vel lacus nulla auctor cursus nunc. Maecenas ultricies dolor in urna tempus, id egestas erat finibus  interdum lectus eget scelerisque.</p>
 				<form>
 					<div class="col-md-6 form-left wow fadeInDown animated" data-wow-delay=".5s">
 						<input type="text" placeholder="Name" required="">
@@ -676,43 +500,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>		
 	<!--//contact -->
-	<!--map-->
-	<div class="map">
-		<ul class="faq">
-			<li class="item1 wow fadeInDown animated" data-wow-delay=".5s"><a href="#">Interactive Route Map<span class="glyphicon glyphicon-menu-down"></span></a>
-				<ul>
-					<li class="subitem1">
-						<iframe data-wow-delay=".5s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555"></iframe>
-					</li>										
-				</ul>
-			</li>
-		</ul>
-		<!-- script for tabs -->
-		<script type="text/javascript">
-			$(function() {
-			
-				var menu_ul = $('.faq > li > ul'),
-					   menu_a  = $('.faq > li > a');
-				
-				menu_ul.hide();
-			
-				menu_a.click(function(e) {
-					e.preventDefault();
-					if(!$(this).hasClass('active')) {
-						menu_a.removeClass('active');
-						menu_ul.filter(':visible').slideUp('normal');
-						$(this).addClass('active').next().stop(true,true).slideDown('normal');
-					} else {
-						$(this).removeClass('active');
-						$(this).next().stop(true,true).slideUp('normal');
-					}
-				});
-			
-			});
-		</script>
-		<!-- script for tabs -->
-	</div>
-	<!--//map-->
 	<!--footer-->
 	<div class="footer">
 		<div class="container">
